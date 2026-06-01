@@ -1,0 +1,13 @@
+Booking Confirmed!
+
+Hello <%= @passenger.name %>
+
+Your flight has been booked successfully.
+
+Flight:
+<%= @flight.departure_airport.code %>
+→
+<%= @flight.arrival_airport.code %>
+
+Departure:
+<%= @flight.start_datetime %>
